@@ -17,7 +17,7 @@ test/e2e/reports
 selenium-debug.log
 
 node_modules
-public/js/fbconfig.js
+src/js/firebaseConfig.js
 node_modules
 # Windows image file caches
 Thumbs.db
