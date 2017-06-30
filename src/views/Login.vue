@@ -9,7 +9,7 @@ import firebase from 'firebase'
 import { mapGetters } from 'vuex'
 
 const uiConfig = {
-  signInSuccessUrl: '/Boards',
+  signInSuccessUrl: '/Persons',
   signInOptions: [
     // Leave the lines as is for the providers you want to offer your users.
     firebase.auth.GoogleAuthProvider.PROVIDER_ID,
@@ -28,12 +28,6 @@ export default {
     ...mapGetters({
       fbUI: 'fbUI'
     })
-  },
-  methods: {
-    // startUI: function () {
-    //   console.log('test')
-    //   this.fbUI.start('#firebaseui-auth-container', uiConfig)
-    // }
   },
   mounted () {
     this.fbUI.start('#firebaseui-auth-container', uiConfig)

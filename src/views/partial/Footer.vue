@@ -9,22 +9,10 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <router-link to="/Sound-Board">Soundboard</router-link>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>                            
-                            <router-link to="/#about">About</router-link>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <router-link to="/#contact">Contact</router-link>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <router-link to="/#credits">Credits</router-link>
-                        </li>
+                            <router-link to="/Persons">Persons</router-link>
+                        </li>                        
                     </ul>
-                    <p class="copyright text-muted small">Teaching with Sound</p>
+                    <p class="copyright text-muted small">Garrett Schroath</p>
                 </div>
             </div>
         </div>

@@ -9,34 +9,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <router-link class="navbar-brand topnav" to="/">Teaching with Sound</router-link>
+                <router-link class="navbar-brand topnav" to="/">Service Fusion</router-link>
                                 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <router-link to="/Sound-Board">Soundboard</router-link>
-                    </li>
-                    <li v-if="theUser">                        
-                        <router-link to="/Lesson-Board">Lesson Board</router-link>                        
-                    </li>  
-                    <li v-if="theUser">                        
-                        <router-link to="/Boards">Boards</router-link>                        
-                    </li>  
-                    <li>
-                        <router-link to="/#about">About</router-link>
-                    </li>
-                    <li>                        
-                        <router-link to="/#contact">Contact</router-link>
-                    </li>
+                        <router-link to="/Persons">Persons</router-link>
+                    </li>                    
                     <li v-if="theUser">                        
                         <a href="#" v-if="theUser" @click="signOut">Log Off</a>
                         <router-link v-else to="/Login">Login</router-link>                        
                     </li>                    
-                  <!--  <li v-if="theUser">
-                        <a href="#">Hello, {{theUser.displayName}}</a>
-                    </li>-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

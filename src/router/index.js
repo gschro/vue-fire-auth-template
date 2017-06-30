@@ -5,6 +5,7 @@ import NavBar from '@/views/partial/NavBar'
 import Home from '@/views/Home'
 import NotFound from '@/views/NotFound'
 import Login from '@/views/Login'
+import Persons from '@/views/Persons'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/Login',
       name: 'Login',
       components: { navbar: NavBar, default: Login, footer: Footer }
+    },
+    {
+      path: '/Persons',
+      name: 'Persons',
+      components: { navbar: NavBar, default: Persons, footer: Footer }
     },
     {
       path: '*',
